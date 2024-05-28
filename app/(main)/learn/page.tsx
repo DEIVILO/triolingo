@@ -7,10 +7,15 @@ const page = () => {
     return (
         <div className="flex flex-row-reverse gap-[48px] px-6">
             <StickyWrapper>
-                <UserProgress activeCourse={{}} hearts={5} points={100} hasActiveSubscription={false} />
+                <UserProgress activeCourse={{ title:"Spanish", imageSrc:"/image/es.svg" }} hearts={5} points={100} hasActiveSubscription={false} />
             </StickyWrapper>
             <FeedWrapper>
                 <Header title="Spanish" />
+                <div className="space-y-4">
+                    <div className="">
+                        
+                    </div>
+                </div>
             </FeedWrapper>
         </div>
     );
